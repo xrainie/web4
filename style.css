@@ -34,6 +34,11 @@ nav div div {
   height: 50px;
   padding: 5px 0 0 0;
 }
+h2 {
+  background-color: #9cb9d1;
+  border: 6px solid #759cd8;
+  border-bottom: 0;
+}
 .header-contentt {
   display: flex;
   flex-direction: row;
@@ -53,40 +58,24 @@ header img {
   color: #eef0f6;
   font-size: 24px;
 }
-.page-content {
+.content-main {
   background-color: #9cb9d1;
   border: 6px solid #759cd8;
 }
-.page-content-bottom {
-  margin: 0;
-  text-align: left;
-  padding: 0 15px 0 15px;
-  display: inline-block;
-  background-color: #9cb9d1;
-  border: 6px solid #759cd8;
-  border-bottom: 0;
+.col-md-12.main_box.mt-4.order-sm-1 {
+  padding: 0 0 0 0;
+}
+.col-md-12.main_box.mt-4.order-sm-3 {
+  padding: 0;
+}
+.col-md-12.main_box.mt-4.order-sm-2 {
+  padding: 0;
 }
 table {
-  border: 3px solid #759cd8;
-  margin: 10px auto 10px auto;
-  border-collapse: collapse;
-}
-th {
-  border: 3px solid #759cd8;
-}
-td {
-  border: 3px solid #759cd8;
-}
-table tr:nth-child(odd) {
-  background-color: antiquewhite;
-}
-
-table tr:nth-child(even) {
-  background-color: aquamarine;
+  border: 6px solid #6f768a;
 }
 form {
-  margin: 5px;
-  text-align: center;
+  font-weight: 500;
 }
 
 footer {

@@ -30,145 +30,143 @@
     <div class="container-lg mainn">
       <div class="row">
         <div class="col-md-12 main_box mt-4 order-sm-1">
-          <h2 class="page-content-bottom">Нумерованный список гиперссылок</h2>
-          <div>
-            <div class="page-content">
-              <ol>
-                <li>
-                  <a href="http://example.com"
-                    >Абсолютная гиперссылка на главную страницу сайта
-                    example.com;</a
-                  >
-                </li>
-                <li>
-                  <a href="https://example.com"
-                    >Абсолютная гиперссылка на главную страницу сайта
-                    example.com в протоколе https;</a
-                  >
-                </li>
-                <li>
-                  <a href="ftp://server/objects.file.html"
-                    >Ссылка на файл на сервере FTP без авторизации</a
-                  >
-                </li>
-                <li>
-                  <a href="ftp://user:6856@server/objects.file.html"
-                    >Ссылка на файл на сервере FTP с авторизацией</a
-                  >
-                </li>
-                <li>
-                  <a href="https://www.google.com/doodles"
-                    >Ссылка на раздел сайта google.com</a
-                  >
-                </li>
-                <li><a href="#top">Ссылка на фрагмент текущей страницы</a></li>
-                <li>
-                  <a href="https://google.com?par1=1&par2=p2"
-                    >Ссылка с двумя параметрами URL</a
-                  >
-                </li>
-                <li>
-                  Список ссылок с основной навигации сайта с подписями title
-                  <ul>
-                    <li><a href="#list">Список гиперссылок</a></li>
-                    <li><a href="#form">Форма</a></li>
-                  </ul>
-                </li>
-                <li><a>Ссылка без href</a></li>
-                <li><a href="">Ссылка с пустым href</a></li>
-                <li>
-                  <a href="https://google.com" rel="nofollow"
-                    >Ссылка под запретом перехода поисковикам</a
-                  >
-                </li>
-                <li>
-                  <a href="https://google.com" rel="nofollow"
-                    >Неиндексируемая ссылка</a
-                  >
-                </li>
-                <li>
-                  <p>Контекстная <a href="#top">Ссылка</a> в тексте абзаца</p>
-                </li>
-                <li>
-                  Ссылка - изображение
-                  <br />
-                  <a href="https://google.com"
-                    ><img
-                      src="https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1"
-                      alt="Описание"
-                      height="150"
-                      width="150"
-                  /></a>
-                </li>
-                <li>
-                  Карта навигации (google, yandex, mail)
-                  <br />
-                  <img
-                    src="https://nz4.ru/wp-content/uploads/2014/12/poiskovie-500x300.jpg"
-                    alt="Карта навигации"
-                    width="500"
-                    height="400"
-                    usemap="#map"
-                    style="width: 80%; min-height: 300px"
-                  />
-                  <p>
-                    <map name="map"
-                      ><area
-                        shape="rect"
-                        coords="0,0,200,100"
-                        href="https://google.com"
-                        alt="google"
-                      />
-                      <area
-                        shape="rect"
-                        coords="100,150,280,250"
-                        href="https://yandex.ru"
-                        alt="yandex"
-                      />
-                      <area
-                        shape="circle"
-                        coords="150,350,100"
-                        href="https://mail.ru"
-                        alt="mail"
-                      />
-                    </map>
-                  </p>
-                </li>
-                <li>
-                  <a href="Страница"
-                    >Относительная Ссылка на страницу в текущем каталоге</a
-                  >
-                </li>
-                <li>
-                  <a href="./about/Страница"
-                    >Относительная cсылка на страницу в каталоге about</a
-                  >
-                </li>
-                <li>
-                  <a href="../Страница"
-                    >Относительная ссылка на страницу в каталоге выше</a
-                  >
-                </li>
-                <li>
-                  <a href="../../Страница"
-                    >Относительная ссылка на страницу в каталоге двумя уровнями
-                    выше текущего</a
-                  >
-                </li>
-                <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
-                <li>
-                  <a href="Страницы/страница"
-                    >Сокращенная ссылка на внутреннюю страницу</a
-                  >
-                </li>
-              </ol>
-            </div>
+          <h2 class="mb-0 d-inline-block">Список гиперссылок</h2>
+          <div class="container-fluid content-main">
+            <ol>
+              <li>
+                <a href="http://example.com"
+                  >Абсолютная гиперссылка на главную страницу сайта
+                  example.com;</a
+                >
+              </li>
+              <li>
+                <a href="https://example.com"
+                  >Абсолютная гиперссылка на главную страницу сайта example.com
+                  в протоколе https;</a
+                >
+              </li>
+              <li>
+                <a href="ftp://server/objects.file.html"
+                  >Ссылка на файл на сервере FTP без авторизации</a
+                >
+              </li>
+              <li>
+                <a href="ftp://user:6856@server/objects.file.html"
+                  >Ссылка на файл на сервере FTP с авторизацией</a
+                >
+              </li>
+              <li>
+                <a href="https://www.google.com/doodles"
+                  >Ссылка на раздел сайта google.com</a
+                >
+              </li>
+              <li><a href="#top">Ссылка на фрагмент текущей страницы</a></li>
+              <li>
+                <a href="https://google.com?par1=1&par2=p2"
+                  >Ссылка с двумя параметрами URL</a
+                >
+              </li>
+              <li>
+                Список ссылок с основной навигации сайта с подписями title
+                <ul>
+                  <li><a href="#list">Список гиперссылок</a></li>
+                  <li><a href="#form">Форма</a></li>
+                </ul>
+              </li>
+              <li><a>Ссылка без href</a></li>
+              <li><a href="">Ссылка с пустым href</a></li>
+              <li>
+                <a href="https://google.com" rel="nofollow"
+                  >Ссылка под запретом перехода поисковикам</a
+                >
+              </li>
+              <li>
+                <a href="https://google.com" rel="nofollow"
+                  >Неиндексируемая ссылка</a
+                >
+              </li>
+              <li>
+                <p>Контекстная <a href="#top">Ссылка</a> в тексте абзаца</p>
+              </li>
+              <li>
+                Ссылка - изображение
+                <br />
+                <a href="https://google.com"
+                  ><img
+                    src="https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1"
+                    alt="Описание"
+                    height="150"
+                    width="150"
+                /></a>
+              </li>
+              <li>
+                Карта навигации (google, yandex, mail)
+                <br />
+                <img
+                  src="https://nz4.ru/wp-content/uploads/2014/12/poiskovie-500x300.jpg"
+                  alt="Карта навигации"
+                  width="500"
+                  height="400"
+                  usemap="#map"
+                  style="width: 80%; min-height: 300px"
+                />
+                <p>
+                  <map name="map"
+                    ><area
+                      shape="rect"
+                      coords="0,0,200,100"
+                      href="https://google.com"
+                      alt="google"
+                    />
+                    <area
+                      shape="rect"
+                      coords="100,150,280,250"
+                      href="https://yandex.ru"
+                      alt="yandex"
+                    />
+                    <area
+                      shape="circle"
+                      coords="150,350,100"
+                      href="https://mail.ru"
+                      alt="mail"
+                    />
+                  </map>
+                </p>
+              </li>
+              <li>
+                <a href="Страница"
+                  >Относительная Ссылка на страницу в текущем каталоге</a
+                >
+              </li>
+              <li>
+                <a href="./about/Страница"
+                  >Относительная cсылка на страницу в каталоге about</a
+                >
+              </li>
+              <li>
+                <a href="../Страница"
+                  >Относительная ссылка на страницу в каталоге выше</a
+                >
+              </li>
+              <li>
+                <a href="../../Страница"
+                  >Относительная ссылка на страницу в каталоге двумя уровнями
+                  выше текущего</a
+                >
+              </li>
+              <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+              <li>
+                <a href="Страницы/страница"
+                  >Сокращенная ссылка на внутреннюю страницу</a
+                >
+              </li>
+            </ol>
           </div>
         </div>
         <div class="col-md-12 main_box mt-4 order-sm-3">
-          <h2 class="page-content-bottom">Таблица</h2>
-          <div class="page-table, page-content text-center" id="page-table">
-            <table>
+          <h2 class="mb-0 d-inline-block">Таблица</h2>
+          <div class="container-fluid content-main">
+            <table class="table table-light table-striped text-center mt-3">
               <tr>
                 <th>Заголовок 1</th>
                 <th>Заголовок 2</th>
@@ -199,60 +197,70 @@
           </div>
         </div>
         <div class="col-md-12 main_box mt-4 order-sm-2">
-          <h2 class="page-content-bottom">Форма</h2>
-          <div class="form, page-content" id="form">
-            <form action="/" method="post">
-              <label>
-                Текстовое поле
-                <br />
-                <input
-                  name="field-name"
-                  type="text"
-                  placeholder="Введите ваше имя"
-                />
-              </label>
-              <br />
-              <label
-                >Текстовое поле e-mail <br /><input
-                  name="field-email"
-                  type="email"
-                  placeholder="Введите вашу почту"
-              /></label>
-              <br />
-              <label>
-                Поле даты<br /><input type="date" name="field-date" />
-              </label>
-              <br />
-              <label>
-                Ваш пол:
-                <br />
-                <input
-                  type="radio"
-                  name="radio-group-1"
-                  value="Значение 1"
-                  checked="checked"
-                />Мужской
-              </label>
-              <label>
-                <input
-                  type="radio"
-                  name="radio-group-1"
-                  value="Значение 2"
-                />Женский
-              </label>
-              <br />
-              <label>
-                Количество конечностей :
-                <br />
-                <input type="radio" name="radio-group-2" value="Значение 1" /> 2
-              </label>
-              <label>
-                <input type="radio" name="radio-group-2" value="Значение 2" /> 3
-              </label>
-              <label
-                ><input type="radio" name="radio-group-2" value="Значение 3" />
-                4</label
+          <h2 class="mb-0 d-inline-block">Форма</h2>
+          <div class="container-fluid content-main text-center">
+            <form action="">
+              <label for="EnterName" class="form-label mt-4">Ваше имя</label>
+              <input type="text" class="form-control" id="EnterName" />
+              <label for="exampleInputEmail1" class="form-label"
+                >Адрес электронной почты</label
               >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <label>
+                Поле даты <br /><input type="date" name="field-date" />
+              </label>
+              <br />
+              Выберите свой пол<br />
+              <input
+                type="radio"
+                class="form-check-input"
+                name="CheckRadio"
+                id="CheckRadio1"
+              />
+              <label for="CheckRadio1" class="form-check-label">Мужской</label
+              ><input
+                type="radio"
+                class="form-check-input"
+                name="CheckRadio"
+                id="CheckRadio2"
+              />
+              <label for="CheckRadio2" class="form-check-label">Женский</label>
+              <br />
+              Количество конечностей
+              <br />
+              <input
+                type="radio"
+                name="RadioGroup"
+                id="RG1"
+                class="form-check-input"
+              />
+              <label for="RG1">2</label>
+              <input
+                type="radio"
+                name="RadioGroup"
+                id="RG2"
+                class="form-check-input"
+              />
+              <label for="RG2">3</label>
+              <input
+                type="radio"
+                name="RadioGroup"
+                id="RG3"
+                class="form-check-input"
+              />
+              <label for="RG3">4</label>
+              <input
+                type="radio"
+                name="RadioGroup"
+                id="RG4"
+                class="form-check-input"
+              />
+              <label for="RG4">5</label>
               <br />
               <label>
                 Сверхспособности:
@@ -281,7 +289,11 @@
                 (а) (чекбокс)
               </label>
               <br />
-              <input type="submit" value="Отправить" />
+              <input
+                type="submit"
+                class="btn btn-primary mb-4"
+                value="Отправить"
+              />
             </form>
           </div>
         </div>
